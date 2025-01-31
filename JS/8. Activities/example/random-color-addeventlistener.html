@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Random color example — event handler attribute</title>
+  <style>
+    button {
+      margin: 10px;
+    }
+
+    p {
+      opacity: 0.3;
+    }
+
+    p:last-child {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="random-color">
+    <button>Change color</button>
+    <button onclick="alert('你好，这是来自旧式事件处理器的一条消息');">
+      按下我
+    </button>
+  </section>
+
+  <section id="form-check">
+    <form>
+      <div>
+        <label for="firstName">First name:</label>
+        <input id="firstName" type="text">
+      </div>
+      <div>
+        <label for="lastName">Last name:</label>
+        <input id="lastName" type="text">
+      </div>
+      <div>
+        <input type="submit" id="submit">
+      </div>
+    </form>
+    <p></p>
+  </section>
+</body>
+
+</html>
