@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+/*main*/
+main {
+    margin: 20px 5px;
+    padding: 10px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#title,
+#descrption,
+#link,
+#img-caption {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/*image*/
+#img-div {
+    width: auto;
+    background-color: white;
+    padding: 10px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    /* object-fit: contain; */
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin-top: 10px;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+a {
+    color: #477ca7;
+}
+
+a:visited {
+    color: #74638f;
+}
